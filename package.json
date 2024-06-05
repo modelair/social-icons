@@ -1,6 +1,6 @@
 {
   "name": "@decoroom/social-icons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
   "module": "./dist/es.js",
   "main": "./dist/umd.js",
@@ -16,6 +16,10 @@
     }
   },
   "keywords": ["vue", "social-icons"],
+  "files": [
+    "dist/",
+    "CHANGELOG.md"
+  ],
   "author": "dmitry zotov",
   "license": "MIT",
   "repository": "https://github.com/modelair/social-icons.git",
