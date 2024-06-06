@@ -6,22 +6,23 @@ import { resolve } from 'path'
 import { defineConfig } from 'vite'
 // import autoprefixer from 'autoprefixer'
 // import fs from 'node:fs'
-import { libInjectCss } from 'vite-plugin-lib-inject-css'
 // import vueJsx from '@vitejs/plugin-vue-jsx'
 // import $style from './src/style/modules'
 
 export default defineConfig({
-  css: {
-    preprocessorOptions: {},
-
-    modules: {
-      exportGlobals: true,
-      generateScopedName: '[hash:base64:5]',
-    },
-
-  },
+  // css: {
+  //   preprocessorOptions: {},
+  //
+  //   modules: {
+  //     exportGlobals: true,
+  //     generateScopedName: '[hash:base64:5]',
+  //   },
+  //
+  // },
   plugins: [
-    vue(),
+    vue({
+      isProduction: true,
+    }),
 
   ],
 
@@ -42,6 +43,7 @@ export default defineConfig({
     },
     rollupOptions: {
       // external: ['vue'],
+      external: ['vue'],
       output: {
         intro: '/**\n' +
           '* @decoroom/social-icons  v0.0.2\n' +

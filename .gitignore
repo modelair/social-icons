@@ -14,9 +14,6 @@ build
 dist-ssr
 coverage
 *.local
-/packages/nuxt
-/cypress/videos/
-/cypress/screenshots/
 
 # Editor directories and files
 .vscode/*

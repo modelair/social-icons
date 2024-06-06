@@ -48,12 +48,12 @@
   "include": [
     //    "src/renderComponent/list-checkbox.vue"
     "src/*",
-    "types.d.ts",
-    "global.d.ts",
-    "env.d.ts",
-    "vite.d.ts",
-    "vitest/globals",
-    "../../node_modules/.pnpm/vitest@1.2.1_@types+node@18.19.3_jsdom@24.0.0_sass@1.70.0/node_modules/vitest/globals.d.ts"
+//    "types.d.ts",
+//    "global.d.ts",
+//    "env.d.ts",
+//    "vite.d.ts",
+//    "vitest/globals",
+//    "../../node_modules/.pnpm/vitest@1.2.1_@types+node@18.19.3_jsdom@24.0.0_sass@1.70.0/node_modules/vitest/globals.d.ts"
   ],
   "exclude": [
     "node_modules",
