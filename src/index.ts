@@ -1,5 +1,5 @@
-import telegram from './telegram.vue'
-import vk from './vk.vue'
-import whatsapp from './whatsapp.vue'
+import SiTelegram from './telegram.vue'
+import SiVk from './vk.vue'
+import SiWhatsapp from './whatsapp.vue'
 
-export { vk, whatsapp, telegram }
+export { SiTelegram, SiVk, SiWhatsapp }

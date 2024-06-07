@@ -1,6 +1,6 @@
 {
   "name": "@decoroom/social-icons",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "type": "module",
   "module": "./dist/es.js",
   "main": "./dist/umd.js",

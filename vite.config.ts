@@ -46,7 +46,7 @@ export default defineConfig({
       external: ['vue'],
       output: {
         intro: '/**\n' +
-          '* @decoroom/social-icons  v0.0.2\n' +
+          '* @decoroom/social-icons  v0.0.10\n' +
           '* (c) 2024 Dmitry Zotov\n' +
           '* @license MIT\n' +
           '**/',

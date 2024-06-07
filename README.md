@@ -1,3 +1,5 @@
+a little vue component icon helper
+
 installing: 
 
 ```npm install @decoroom/social-icons```
@@ -5,16 +7,16 @@ installing:
 or
 ```pnpm add @decoroom/social-icons```
 ```ts
-import * as icons from '@decoroom/social-icons'
+import { SiTelegram, SiVk, SiWhatsapp } from '@decoroom/social-icons'
 ```
 ```vue 
 <script lang="ts" setup>
-import * as icons from '@decoroom/social-icons'
+import { SiTelegram, SiVk, SiWhatsapp } from '@decoroom/social-icons'
 </script>
 
 <template>
-  <icons.telegram></icons.telegram>  
-  <icons.whatsapp></icons.whatsapp>  
-  <icons.vk></icons.vk>  
+  <si-telegram></si-telegram>  
+  <si-whatsapp></si-whatsapp>  
+  <si-vk></si-vk>  
 </template>
 ```

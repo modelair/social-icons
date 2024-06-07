@@ -1,5 +1,5 @@
 <template>
-  <svg viewBox="0 0 48 48" fill="none" width="100%" height="100%">
+  <svg viewBox="0 0 48 48" fill="none">
     <path style="fill:var(--si-wa-primary, #FFFFFF)" d="M8,40l2.2-8C8.8,29.5,8,26.8,8,23.9C8,15.2,15.2,8,23.9,8S40,15.2,40,23.9S32.7,40,23.9,40
 	c-2.8,0-5.4-0.9-7.8-2.2L8,40z"/>
     <path style="fill:var(--si-wa-secondary, #4eb270)" d="M16.6,34.9l0.5,0.3c2,1.3,4.4,2,6.9,2c7.2,0,13.2-6,13.2-13.4s-6-13.1-13.3-13.1s-13.2,5.8-13.2,13.1
